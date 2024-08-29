@@ -1,0 +1,39 @@
+/* Estilo para a página de resultado do cadastro de professor */
+.resultado {
+    max-width: 500px; /* Limita a largura da div de resultado */
+    margin: 0 auto; /* Centraliza a div na página */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #fff; /* Cor de fundo da div */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+.resultado .success {
+    color: #27ae60; /* Cor verde para mensagens de sucesso */
+    font-size: 18px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.resultado .error {
+    color: #e74c3c; /* Cor vermelha para mensagens de erro */
+    font-size: 18px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.btn.voltar {
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 16px; /* Tamanho da fonte */
+    display: inline-block; /* Display inline-block para o link */
+    margin-top: 10px; /* Espaçamento superior */
+    margin-right: 10px; /* Espaçamento à direita entre botões */
+}
+
+.btn.voltar:hover {
+    background-color: #2980b9; /* Cor de fundo ao passar o mouse */
+}

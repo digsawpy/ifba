@@ -1,0 +1,49 @@
+/* Estilo para a página de confirmação de cadastro de turmas */
+.container {
+    max-width: 500px; /* Limita a largura do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #fff; /* Cor de fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+header {
+    text-align: center; /* Alinha o conteúdo do cabeçalho ao centro */
+}
+
+header .logo {
+    max-width: 150px; /* Limita a largura da logo */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+header h1 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    color: #3498db; /* Cor do título */
+}
+
+.btn {
+    background-color: #3498db; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 16px; /* Tamanho da fonte */
+    display: inline-block; /* Display inline-block para o link */
+    margin-top: 20px; /* Espaçamento superior */
+    margin-right: 10px; /* Espaçamento à direita entre os botões */
+}
+
+.btn.voltar {
+    background-color: #e74c3c; /* Cor de fundo do botão Voltar */
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Cor de fundo ao passar o mouse */
+}
+
+.btn.voltar:hover {
+    background-color: #c0392b; /* Cor de fundo ao passar o mouse no botão Voltar */
+}
